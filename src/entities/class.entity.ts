@@ -5,7 +5,7 @@ import { Subjects } from "./subjects.entity";
 @Entity()
 export class ClassNo {
     @PrimaryGeneratedColumn()
-    class_id: number;
+    id: number;
 
     @Column()
     class: string;

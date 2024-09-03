@@ -1,3 +1,43 @@
+Uni_id:
+Faculty_id:
+Course_id:
+
+based on respective IDs
+//for "/"
+    {
+        "university": "U-1",
+        "faculty": "TUF-2",
+        "course": "TUC-1",
+        "sem": "1"
+    }
+
+    {
+        "classNo": "2"
+    }
+
+
+// for "/faculty"
+    {
+        "university": "U-1" //U-2
+    }
+
+
+//for "/courses" ,
+    {
+        "faculty": "KUF-1" //TUF-1
+    }
+
+
+//for "/subjects"
+    {
+        "course": "KUC-1" //TUC-1
+    }
+
+
+
+
+
+//based on Name (For Previous commit)
 {
     "university": "Kathmandu University",
     "depart": "Engineering Department",
@@ -10,8 +50,4 @@
     "depart": "Faculty of Engineering",
     "course": "Civil Engineering",
     "year": "1"
-}
-
-{
-    "classNo": "2"
 }

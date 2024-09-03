@@ -11,6 +11,9 @@ export class Course{
     courseName: string;
 
     @Column()
+    course_id: string;
+
+    @Column()
     duration: string;
 
     @Column()

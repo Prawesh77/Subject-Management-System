@@ -5,10 +5,13 @@ import { Course } from "./course.entity";
 @Entity()
 export class Faculty {
     @PrimaryGeneratedColumn()
-    faculty_id: number;
+    id: number;
 
     @Column()
     faculty_name: string;
+
+    @Column({default: '1'})
+    faculty_id: string;
 
     @ManyToOne(() => University, (university) => university.faculties)
     university: University;
