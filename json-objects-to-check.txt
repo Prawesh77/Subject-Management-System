@@ -1,0 +1,17 @@
+{
+    "university": "Kathmandu University",
+    "depart": "Engineering Department",
+    "course": "Civil Engineering",
+    "sem": "1" //sem or year
+}
+
+{
+    "university": "Tribhuvan University",
+    "depart": "Faculty of Engineering",
+    "course": "Civil Engineering",
+    "year": "1"
+}
+
+{
+    "classNo": "2"
+}
